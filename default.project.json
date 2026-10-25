@@ -1,0 +1,14 @@
+{
+  "name": "ChaosChessLobby",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "LobbyServer": { "$path": "src/server/LobbyServer.server.lua" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "LobbyClient": { "$path": "src/client/LobbyClient.client.lua" }
+      }
+    }
+  }
+}
